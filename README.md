@@ -1,4 +1,4 @@
 # BasicMaven
 
-Basic maven project
+Basic maven project with webhook
 
