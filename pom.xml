@@ -74,14 +74,13 @@
     </pluginManagement>
   </build>
   <distributionManagement>
-    <repository>
-      <id>deploymentr</id>
-      <url>http://35.232.95.3:8081/repository/SAMPLE-REL/</url>
-    </repository>
-    
-    <snapshotRepository>
-      <id>deployments</id>
-      <url>http://35.232.95.3:8081/repository/SAMPLE-SNAP/</url>
-    </snapshotRepository>
+               <snapshotRepository>
+                    <id>nexus-snapshots</id>
+                    <url>http://52.14.32.47:8081/repository/maven-snapshots/</url>
+               </snapshotRepository>
+               <repository>
+                    <id>nexus-releases</id>
+                    <url>http://52.14.32.47:8081/repository/maven-releases/</url>
+               </repository>
   </distributionManagement>
 </project>
